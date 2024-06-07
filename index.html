@@ -3,37 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Company Name | Company Services</title>
 </head>
 <body>
     <header>
-        <h1></h1>
+        <h1>Company Name</h1>
         <nav>
             <ul>
-                <li><a src="" id="#home">Home</a></li>
-                <li><a src="" id="#about">About</a></li>
-                <li><a src="" id="#contact">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="#about">
-            <h2>About</h2>
+        <section id="home">
+            <h2>Company Services</h2>
+        </section>
+        <section id="about" class="about-section">
+            <h3>About</h3>
             <figure>
-            <img src="" alt="" height="150" width="150">
+            <img src="https://placehold.jp/150x150.png" alt="What we're all about" height="150" width="150">
             <figcaption>An image that shows what we're about.</figcaption>
             </figure>
         </section>
-        <section>
-            <h3>Contact</h3>
-            <form id="#contact">
-                <input>Name:
-                <input>Email:
-            </form>
+        <section id="contact">
+            <h4>Contact</h4>
+                <fieldset>
+                    <legend>Get in touch</legend>
+                        <form id="#contact">
+                            <label for="name">Name:</label><br>
+                            <input type="text" class="form-format" name="name"><br>
+                            <label for="name">Email:</label><br>
+                            <input type="email" class="form-format" name="name"><br>
+                            <input type="submit" class="form-format" value="Send">
+                    </form>
+                </fieldset>
         </section>
     </main>
     <footer>
-
+        <p>&copy company name</p>
     </footer>
 </body>
 </html>

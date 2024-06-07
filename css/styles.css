@@ -1,22 +1,83 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    /* color #1 */
-    /* color #2 */
-    /* color #3 */
+    margin: 0;
+    padding: 0;
 }
 
 header {
     position: fixed;
+    background-color: brown;
+    z-index: 10;
+    width: 100%;
+}
+
+h1 {
+    padding: 5px;
+    margin: 50px 0 0 20px;
 }
 
 nav {
+    position: relative;
+    left: 780px;
+    background-color: gray;
+    padding: 10px;
+}
+
+nav li {
     display: inline;
+    list-style-type: none;
 }
 
-# {
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
 
 }
 
-. {
+main {
+    position: relative;
+    top: 134px;
+    background-color: beige;
+}
 
+h2, h3, h4 {
+    text-align: center;
+    padding: 30px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+figcaption {
+    text-align: center;
+    padding: 30px;
+}
+
+fieldset {
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto 50px;
+}
+
+#contact {
+    background-color: whitesmoke;
+    padding-bottom: 5px;
+}
+
+form {
+    display: block;
+    text-align: center;
+}
+
+.form-format {
+    margin: 15px 0;
+}
+
+footer {
+    position: relative;
+    top: 134px;
+    padding: 10px;
 }
