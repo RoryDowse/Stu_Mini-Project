@@ -13,12 +13,12 @@ header {
 
 h1 {
     padding: 5px;
-    margin: 50px 0 0 20px;
+    margin: 44px 0 0 20px;
 }
 
 nav {
     position: relative;
-    left: 780px;
+    float: right;
     background-color: gray;
     padding: 10px;
 }
@@ -36,19 +36,26 @@ nav a {
 
 main {
     position: relative;
-    top: 134px;
+    top: 128px;
     background-color: beige;
 }
 
-h2, h3, h4 {
+h2 {
     text-align: center;
     font-size: 1.5em;
     padding: 30px;
 }
 
-.description {
+#home {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+h3, h4 {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 30px;
 }
 
 img {
@@ -84,6 +91,6 @@ form {
 
 footer {
     position: relative;
-    top: 134px;
+    top: 128px;
     padding: 10px;
 }
