@@ -1,6 +1,6 @@
 # Mini-Project Landing Page
 
-The project is a landing page that collect's visitor information. It is designed to test semantic HTML and accessibility.
+The project is a landing page that collects visitor information. It is designed to test semantic HTML and accessibility.
 
 # Project Description
 
