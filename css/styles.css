@@ -36,7 +36,7 @@ nav a {
 
 main {
     position: relative;
-    top: 128px;
+    padding-top: 129px;
     background-color: beige;
 }
 
@@ -91,6 +91,6 @@ form {
 
 footer {
     position: relative;
-    top: 128px;
+    padding-top: 129px;
     padding: 10px;
 }

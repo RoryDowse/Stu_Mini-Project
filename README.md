@@ -1,3 +1,30 @@
+# Mini-Project Landing Page
+
+The project is a landing page that collect's visitor information. It is designed to test semantic HTML and accessibility.
+
+# Project Description
+
+The project landing page offers basic information about a company and the opportunity for the visitor to contact the company by entering their name and email into a form.
+
+It uses basic HTML and CSS, with a focus on semantic elements and acessibility features.
+
+# Features
+
+- informative landing page with company details
+- contact form for visitors to get in touch
+- navigation bar created using the "float" property
+- accessible and semantic HTML structure
+
+# Challenges
+
+The challenges included making a navigation bar using the "float" property.
+
+# Running the Project
+
+The project is loaded into the browser and displays a single landing page. The user can choose to contact the company by selecting "Contact" from the navigation bar and entering their information, or they can scroll to the "Contact" section of the page. The user presses the "submit" button to submit their data. The form has not been connected for submissions.
+
+# Project Brief:
+
 # Unit 01 Mini-Project: Landing Page
 
 In this mini-project, you will build a landing page using HTML and CSS. While you will be responsible for your own landing page, you will work in a group to brainstorm and share ideas.
